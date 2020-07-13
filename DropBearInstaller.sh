@@ -2,8 +2,8 @@
 cd
 
 # disable ipv6
-#echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6
-#sed -i '$ i\echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6' /etc/rc.local
+echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6
+sed -i '$ i\echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6' /etc/rc.local
 
 apt-get purge apache* samba* bind9* sasl* sendmail* exim* nscd* ntp
 apt-get clean
