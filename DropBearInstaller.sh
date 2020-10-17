@@ -27,8 +27,8 @@ apt-get update
 # install essential package
 apt-get -y install nano iptables whois ngrep unzip unrar
 
-# install badvpn
-
+# install badvpn (Thanks to user "powermx")
+wget https://raw.githubusercontent.com/koulisElE/badvpn/master/easyinstall && bash easyinstall
 
 
 
