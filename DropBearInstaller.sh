@@ -29,7 +29,7 @@ apt-get -y install nano iptables whois ngrep unzip unrar
 
 # install badvpn (Thanks to user "powermx")
 wget https://raw.githubusercontent.com/koulisElE/badvpn/master/easyinstall && bash easyinstall
-
+badvpn start
 
 
 # setting port ssh
