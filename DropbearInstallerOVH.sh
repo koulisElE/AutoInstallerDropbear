@@ -17,9 +17,9 @@ sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
 /etc/init.d/ssh restart
 
 # set repo
-wget -O /etc/apt/sources.list "https://raw.githubusercontent.com/IDwebsource/autoinstall-openvpn-deb8/master/sources.list.debian8"
-wget "http://www.dotdeb.org/dotdeb.gpg"
-cat dotdeb.gpg | apt-key add -;rm dotdeb.gpg
+#wget -O /etc/apt/sources.list "https://raw.githubusercontent.com/IDwebsource/autoinstall-openvpn-deb8/master/sources.list.debian8"
+#wget "http://www.dotdeb.org/dotdeb.gpg"
+#cat dotdeb.gpg | apt-key add -;rm dotdeb.gpg
 
 # update
 apt-get update
